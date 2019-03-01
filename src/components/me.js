@@ -2,7 +2,7 @@ import React from 'react';
 import styled from 'styled-components';
 //import Mee from '../images/me.JPG'
 import ParticlesBG from './particlejs'
-
+import Skills from '../components/skills'
 const Wrapper = styled.div`
   background: transparent;
   overflow: hidden;
@@ -53,8 +53,8 @@ const Me =()=>
 <Column>
   <Img src='https://imgur.com/pZrqHfF.jpg' className='me-img' />
 </Column>
-
-
+<h2>My skills</h2>
+<Skills />
 </Wrapper>
 )
 

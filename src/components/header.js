@@ -18,7 +18,7 @@ const Header = ({ siteTitle }) => (
       }}
     >
       
-     <div><NavBar /></div>
+     <NavBar />
     </div>
   </header>
 )

@@ -1,16 +1,75 @@
-import React from "react"
-import { Link } from "gatsby"
+import React from 'react';
+import { graphql } from 'gatsby';
+import Layout from '../components/layout';
+import Projects from '../components/projects';
 
-import Layout from "../components/layout"
-import SEO from "../components/seo"
+export const query = graphql`
+  {
+    allProjectsJson {
+      edges {
+        node {
+          title
+          description
+          url
+          info
+          slug
+          image {
+            childImageSharp {
+              fluid {
+                ...GatsbyImageSharpFluid
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+`;
 
-const SecondPage = () => (
+// export const query = graphql`
+//   {
+//     allSanityProject {
+//       edges {
+//         node {
+//           title
+//           description
+//           slug {
+//             current
+//           }
+//           url
+//           image {
+//             asset {
+//               fluid {
+//                 ...GatsbySanityImageFluid
+//               }
+//             }
+//           }
+//         }
+//       }
+//     }
+//   }
+// `;
+
+export default ({ data }) => (
+  
+  
   <Layout>
-    <SEO title="Page two" />
-    <h1>Hi from the second page</h1>
-    <p>Welcome to page 2</p>
-    <Link to="/">Go back to the homepage</Link>
-  </Layout>
-)
-
-export default SecondPage
+    <main className="content">
+    {data.allProjectsJson.edges.map(({ node: project }) => (
+    // {data.allSanityProject.edges.map(({ node: project }) => (
+      <Projects
+        // key={`preview-${project.slug}`}
+        key={project.slug}
+        title={project.title}
+        description={project.description}
+        // slug={project.slug}
+         imageData={project.image.childImageSharp.fluid}
+        slug={project.slug}
+        url={project.url}
+        info={project.info}
+       // imageData={project.image.asset.fluid}
+      />
+    ))}
+    </main>
+    </Layout>
+);

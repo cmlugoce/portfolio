@@ -1,4 +1,6 @@
 @import url('https://fonts.googleapis.com/css?family=Indie+Flower');
+@import url('https://fonts.googleapis.com/css?family=Comfortaa');
+@import url('https://fonts.googleapis.com/css?family=Ubuntu+Mono');
 
 html {
   font-family: sans-serif;
@@ -6,47 +8,155 @@ html {
   -webkit-text-size-adjust: 100%;
 }
 
-/* nav{
-  display: flex;
-  justify-content: space-evenly;
+.project{
+  font-family: 'Comfortaa', cursive;
 
+}
+/* .im{
+  
+ 
+}
+.im:hover{
+ opacity: 0.4;
+ content: '';
+ 
 } */
+.project-preview {
+  margin-bottom: 2rem;
+  width: 100%;
+  border: 1px solid purple;
+  border-radius: 5px;
+  padding: 5px;
+  text-align: center;
+  
+  
+}
+
+.project-preview:hover{
+  border: 1px solid;
+  padding: 10px;
+  box-shadow: 5px 10px #888888;
+}
+
+.content {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  margin: 5rem auto;
+  max-width: 90%;
+  width: 75ch;
+  margin-left: 30%;
+
+
+
+ 
+ 
+}
+
+footer{
+  margin-bottom: 0;
+  /* position: relative; */
+  /* left: 60%; */
+  background: transparent;
+}
+
+@media (min-width: 600px) {
+  .project-preview {
+    flex: 1 50%;
+    max-width: calc(50% - 0.5rem);
+    background: white;
+    
+  }
+}
+
+.project-preview h2 {
+  font-size: 1.75rem;
+  margin-top: 0.5rem;
+}
+
+.project-preview h2 a {
+  color: #222;
+  text-decoration: none;
+}
+
+.project-preview p {
+  margin-top: 0.5rem;
+}
+
+.project {
+  width: 100%;
+}
+
+.project h3,
+.project img,
+.project p {
+  margin-top: 1rem;
+}
+
+.project ul {
+  margin-top: 0.5rem;
+}
+
+#contact{
+  margin-top: 10%;
+ background: url(../images/night.jpg);
+ background-size: cover;
+ color: white;
+ width: 100vw;
+ margin-left: 0;
+ margin-right: 0;
+}
+
+input{
+  opacity: 0.5;
+}
+textarea{
+ opacity: 0.5;
+}
+
+.btn-submit{
+  opacity: 1;
+  margin-bottom: 2%;
+}
 #n{
   display: flex;
   justify-content: space-around;
   flex-direction: row;
   flex-wrap: wrap;
   width: 100vw;
-  height: 10%;
-  margin-top: 2%;
+  height: 7vh;
+  margin-top: 0;
+  /* margin-left: -2.2%; */
   margin-bottom: 10px;
   font-size: 1.3em;
   font-weight: bold;
-  color: black;
+  
   justify-items: center;
+  background: teal;  /* fallback for old browsers */
+
 }
 a{
   text-decoration: none;
 }
 #n > a{
-  color: black;
+  color: white;
   font-family: 'Indie Flower', cursive;
 
 }
 .bg{
   background: black url(../images/bg.jpg) center center no-repeat;
   background-size: contain;
-  width: 95vw;
+  margin-left: -2.3%;
+  width: 100vw;
   height: 80vh;
+  margin-top: -1.5%;
 }
 .me-img{
   border-radius: 10px;
 }
-body {
-  background: #edfcf9;
-  margin: 0;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+body{
+  font-family: 'Ubuntu Mono', monospace;
+
 }
 article,
 aside,

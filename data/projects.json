@@ -1,0 +1,51 @@
+[
+    {
+      "title": "Winecell",
+      "slug": "Winecell",
+      "url": "https://winecell.surge.sh/",
+      "image": "./images/winecell.png",
+      "description": "A ReactJS virtual winecellar",
+      "info": ["Created Backend API with Rails using SQLite as database",
+      "Utilized Redux library for all API calls and state management",
+      "Used Thunk middleware to make asynchronous calls"]
+    },
+    {
+        "title": "Lookit",
+        "slug": "Lookit",
+        "url": "https://lookit.surge.sh/",
+        "image": "./images/lookit.png",
+        "description": "A ReactJS image searcher",
+        "info": ["React", "Gatsby", "JavaScript"]
+      },
+    {
+      "title": "Parksbook",
+      "slug": "parksbook",
+      "url": "https://parksbook.herokuapp.com/",
+      "image": "./images/Parks-book.png",
+      "description": "Helps users create and share park visits",
+      "info": ["Built RESTful API using Ruby on Rails and the MVC pattern",
+        "Developed interactive AJAX functionality with JavaScript and jQuery",
+        "Used Omniauth for OAuth authentication with Facebook",
+        "Integrated Bootstrap to design the UI"]
+    },
+    {
+        "title": "Adventure",
+        "slug": "adventure",
+        "url": "https://github.com/cmlugoce/adventure",
+        "image": "./images/Adventure.png",
+        "description": "A tool for logging hikes",
+        "info": ["Used Sinatra to build APIs and MVC pattern",
+          "Authenticated users using Ruby gem BCrypt",
+          "Incorporated Bootstrap to style the front end"]
+      },
+      {
+        "title": "Wanderer",
+        "slug": "wanderer-cli",
+        "url": "https://github.com/cmlugoce/wanderer",
+        "image": "./images/index-3.jpg",
+        "description": "CLI app showing long-distance hiking trails around the world",
+        "info": ["Used Nokogiri to scrape data from Fodor's website",
+          "Added CLI executable to run program",
+          "Utilized the Colorize gem to style the CLI"]
+      }
+  ]

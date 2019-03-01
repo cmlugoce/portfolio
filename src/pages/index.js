@@ -5,6 +5,9 @@ import Me from '../components/me'
 import Layout from "../components/layout"
 import Image from "../components/image"
 import SEO from "../components/seo"
+import Skills from '../components/skills'
+import 'bootstrap/dist/css/bootstrap.min.css';
+
 
 const IndexPage = () => (
   <Layout>
@@ -16,6 +19,8 @@ const IndexPage = () => (
     </div>
     
     <Me />
+   
+    
     
   </Layout>
   

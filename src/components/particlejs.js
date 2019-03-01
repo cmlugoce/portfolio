@@ -9,10 +9,10 @@ function ParticlesBG(props) {
       <Particles params={{
         "particles": {
           "number": {
-            "value": 100,
+            "value": 80,
             "density": {
               "enable": true,
-              "value_area": 1000
+              "value_area": 900
             }
           },
           "color": {
@@ -21,8 +21,8 @@ function ParticlesBG(props) {
           "shape": {
             "type": "circle",
             "stroke": {
-              "width": 1,
-              "color": "#000000"
+              "width": 0,
+              "color": "red"
             },
             "polygon": {
               "nb_sides": 5
@@ -57,8 +57,8 @@ function ParticlesBG(props) {
             "enable": true,
             "distance": 150,
             "color": "#000",
-            "opacity": 0.175,
-            "width": 1.2
+            "opacity": 0,
+            "width": 0
           },
           "move": {
             "enable": true,
