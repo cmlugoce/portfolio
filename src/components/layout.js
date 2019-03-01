@@ -20,15 +20,15 @@ const Layout = ({ children }) => (
       
         
         <div
-          style={{
-            //margin: `0 auto`,
-            maxWidth: 960,
-            padding: `0px 0rem 0rem`,
-            paddingTop: 0,
-          }}
+          // style={{
+          //   //margin: `0 auto`,
+          //   maxWidth: 960,
+          //   padding: `0px 0rem 0rem`,
+          //   paddingTop: 0,
+          // }}
         >
         
-        <NavBar />
+        <Header />
         
           <main>
          

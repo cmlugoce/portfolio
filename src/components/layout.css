@@ -1,7 +1,23 @@
-@import url('https://fonts.googleapis.com/css?family=Indie+Flower');
-@import url('https://fonts.googleapis.com/css?family=Comfortaa');
-@import url('https://fonts.googleapis.com/css?family=Ubuntu+Mono');
 
+@import url('https://fonts.googleapis.com/css?family=Comfortaa');
+@import url('https://fonts.googleapis.com/css?family=Righteous');
+@import url('https://fonts.googleapis.com/css?family=Mali');
+@import url('https://fonts.googleapis.com/css?family=Courgette');
+
+
+#hello,#cap{
+  font-family: 'Courgette', cursive;
+
+}
+#hello{
+
+  padding: 1rem;
+}
+#cap{
+  color: white;
+  font-weight: bold;
+  text-shadow: 3px 3px 0 rgba(0, 0, 0, 0.4);
+}
 html {
   font-family: sans-serif;
   -ms-text-size-adjust: 100%;
@@ -12,15 +28,7 @@ html {
   font-family: 'Comfortaa', cursive;
 
 }
-/* .im{
-  
- 
-}
-.im:hover{
- opacity: 0.4;
- content: '';
- 
-} */
+
 .project-preview {
   margin-bottom: 2rem;
   width: 100%;
@@ -118,44 +126,37 @@ textarea{
   opacity: 1;
   margin-bottom: 2%;
 }
-#n{
-  display: flex;
-  justify-content: space-around;
-  flex-direction: row;
-  flex-wrap: wrap;
-  width: 100vw;
-  height: 7vh;
-  margin-top: 0;
-  /* margin-left: -2.2%; */
-  margin-bottom: 10px;
-  font-size: 1.3em;
-  font-weight: bold;
-  
-  justify-items: center;
-  background: teal;  /* fallback for old browsers */
 
-}
 a{
   text-decoration: none;
 }
-#n > a{
-  color: white;
-  font-family: 'Indie Flower', cursive;
+
+.bg{
+  background:  url(../images/bg.jpg) center center no-repeat;
+  background-size: cover;
+  /* margin-left: -2.3%; */
+  width: 98.7vw;
+  height: 80vh;
+  margin-top: -2%;
 
 }
-.bg{
-  background: black url(../images/bg.jpg) center center no-repeat;
-  background-size: contain;
-  margin-left: -2.3%;
-  width: 100vw;
-  height: 80vh;
-  margin-top: -1.5%;
-}
+/* .bg::after {
+  content: "";
+  background: url(../images/bg.jpg) center center no-repeat;
+  background-size: cover;
+  opacity: 30;
+  margin-top: -2%;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  position: absolute;
+  z-index: -1;   
+} */
 .me-img{
   border-radius: 10px;
 }
-body{
-  font-family: 'Ubuntu Mono', monospace;
+#nav{
+  font-family: 'Mali', cursive;
 
 }
 article,
