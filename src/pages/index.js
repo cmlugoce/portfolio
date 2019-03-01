@@ -13,8 +13,9 @@ const IndexPage = () => (
   <Layout>
     <SEO title="Cristina Lugo" keywords={[`gatsby`, `application`, `react`]} />
     <div className='bg'>
-    <h1 style ={{color: `white`, fontSize: `6em`, fontWeight: `bold`, top: `0`, marginLeft: `10%`}}>Hello<span style={{color: `teal`}}>.</span></h1>
-    <h2 style={{color: `white`, marginLeft: `10%`}}> I’m Cristina, a web developer, geologist and nature lover</h2>
+    
+    <h1 id='hello' style ={{color: `white`, fontSize: `6em`, fontWeight: `bold`,  marginLeft: `10%`}}>Hello<span style={{color: `#fd5e53`}}>.</span></h1>
+    <h2 id='cap' style={{marginLeft: `10%`}}> I’m Cristina, a web developer, geologist and nature lover</h2>
     
     </div>
     
