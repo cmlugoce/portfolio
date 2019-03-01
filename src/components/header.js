@@ -6,20 +6,17 @@ const Header = ({ siteTitle }) => (
   
     <header
     style={{
-      background: `black`,
+      background: `#fd5e53`, 
+      opacity: 0.95,
       marginBottom: `1.45rem`,
+      
+     
     }}
   >
-    <div
-      style={{
-        marginLeft: `0 `,
-        maxWidth: 960,
-        padding: `1.45rem 1.0875rem`,
-      }}
-    >
+    
       
      <NavBar />
-    </div>
+    
   </header>
 )
 
