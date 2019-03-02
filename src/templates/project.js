@@ -14,6 +14,7 @@ import ProjectPreview from '../components/project';
             description={project.description}
             info={project.info}
             url={project.url}
+            code={project.code}
           />
         // </Layout>
       );
@@ -27,6 +28,7 @@ export const query = graphql`
     projectsJson(slug: { eq: $slug }) {
       title
       description
+      code
       url
       info
       image {

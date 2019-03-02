@@ -13,7 +13,7 @@ const Nav = styled.nav`
   
  
   line-height: 2.2rem;
- 
+  
   
   a {
     color: white;
@@ -27,7 +27,14 @@ const Nav = styled.nav`
       text-decoration: none;
       color: purple;
     }
+    
    
+  }
+  @media (max-width: 480px){
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    justify-content: center;
   }
 `
 
@@ -48,10 +55,12 @@ const List = styled.ul`
 
 const NavBar = () => {
   return (
-    <Nav id="nav" role="navigation">
-    {/* <Link to="/">Cristina Lugo</Link> */}
+    <>
      
-        
+    <Nav id="nav" role="navigation">
+   
+     
+    {/* <Link id='home' to="/">Cristina Lugo</Link> */}
          
           <Link to="/" className="link--work">
             Home
@@ -63,9 +72,10 @@ const NavBar = () => {
           </Link>
         
         
-          <Link to="/blog/" className="link--blog">
+          <a href='http://cmlugoce.com/' target="_blank"
+          rel="noopener noreferrer" className="link--blog">
             Blog
-          </Link>
+          </a>
           
           <Link to="/contact/" className="link--blog">
             Contact
@@ -74,6 +84,7 @@ const NavBar = () => {
         
       
     </Nav>
+    </>
   )
 }
 

@@ -3,6 +3,7 @@
       "title": "Winecell",
       "slug": "Winecell",
       "url": "https://winecell.surge.sh/",
+      "code": "https://github.com/cmlugoce/winecell",
       "image": "./images/winecell.png",
       "description": "A ReactJS virtual winecellar",
       "info": ["Created Backend API with Rails using SQLite as database",
@@ -13,14 +14,16 @@
         "title": "Lookit",
         "slug": "Lookit",
         "url": "https://lookit.surge.sh/",
+        "code": "https://github.com/cmlugoce/LookIt",
         "image": "./images/lookit.png",
         "description": "A ReactJS image searcher",
-        "info": ["React", "Gatsby", "JavaScript"]
+        "info": ["Built with React", "Fetching data from the Unsplash API"]
       },
     {
       "title": "Parksbook",
       "slug": "parksbook",
       "url": "https://parksbook.herokuapp.com/",
+      "code": "https://github.com/cmlugoce/parks-book",
       "image": "./images/Parks-book.png",
       "description": "Helps users create and share park visits",
       "info": ["Built RESTful API using Ruby on Rails and the MVC pattern",
@@ -31,7 +34,8 @@
     {
         "title": "Adventure",
         "slug": "adventure",
-        "url": "https://github.com/cmlugoce/adventure",
+        "url":"",
+        "code": "https://github.com/cmlugoce/adventure",
         "image": "./images/Adventure.png",
         "description": "A tool for logging hikes",
         "info": ["Used Sinatra to build APIs and MVC pattern",
@@ -41,7 +45,8 @@
       {
         "title": "Wanderer",
         "slug": "wanderer-cli",
-        "url": "https://github.com/cmlugoce/wanderer",
+        "url": "",
+        "code": "https://github.com/cmlugoce/wanderer",
         "image": "./images/index-3.jpg",
         "description": "CLI app showing long-distance hiking trails around the world",
         "info": ["Used Nokogiri to scrape data from Fodor's website",

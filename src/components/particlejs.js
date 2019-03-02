@@ -9,14 +9,14 @@ function ParticlesBG(props) {
       <Particles params={{
         "particles": {
           "number": {
-            "value": 80,
+            "value": 100,
             "density": {
               "enable": true,
               "value_area": 900
             }
           },
           "color": {
-            "value": "#3498db"
+            "value": "#FF9933"
           },
           "shape": {
             "type": "circle",
@@ -34,7 +34,7 @@ function ParticlesBG(props) {
             }
           },
           "opacity": {
-            "value": 0.5,
+            "value": 0.7,
             "random": false,
             "anim": {
               "enable": false,
@@ -44,7 +44,7 @@ function ParticlesBG(props) {
             }
           },
           "size": {
-            "value": 3,
+            "value": 4,
             "random": true,
             "anim": {
               "enable": false,

@@ -10,6 +10,7 @@ export const query = graphql`
         node {
           title
           description
+          code
           url
           info
           slug
@@ -67,6 +68,7 @@ export default ({ data }) => (
         slug={project.slug}
         url={project.url}
         info={project.info}
+        code={project.code}
        // imageData={project.image.asset.fluid}
       />
     ))}
