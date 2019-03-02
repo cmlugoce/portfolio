@@ -42,7 +42,7 @@ const Me =()=>
 (
     
       <Wrapper>
-<ParticlesBG/>
+
  <Column>
  <h1 id='name' style={{marginTop: `3%`, fontWeight: `bold`, color: `#003366`, textAlign: `center`}}>Cristina Lugo</h1> 
  {/* <h3 class='desc'>Web Developer</h3> */}
@@ -60,6 +60,7 @@ const Me =()=>
  
 <h2 id='skills' style={{padding: `1rem 5rem 1rem`, color: `#3498db`}}><u>My skills</u></h2>
 <Skills />
+
 </Wrapper>
 
 )

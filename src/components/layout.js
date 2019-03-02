@@ -19,14 +19,7 @@ const Layout = ({ children }) => (
     render={data => (
       
         
-        <div
-          // style={{
-          //   //margin: `0 auto`,
-          //   maxWidth: 960,
-          //   padding: `0px 0rem 0rem`,
-          //   paddingTop: 0,
-          // }}
-        >
+       <>
         
         <Header />
         
@@ -42,8 +35,8 @@ const Layout = ({ children }) => (
             {` `}
             <a href="https://www.gatsbyjs.org">Gatsby</a>
           </footer> */}
-        </div>
-     
+       
+     </>
     )}
   />
 )
