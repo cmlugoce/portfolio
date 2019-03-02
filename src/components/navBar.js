@@ -25,7 +25,7 @@ const Nav = styled.nav`
     text-align: center;
     &:hover{
       text-decoration: none;
-      color: purple;
+      color: hotpink;
     }
     
    
@@ -33,9 +33,14 @@ const Nav = styled.nav`
   @media (max-width: 480px){
     display: flex;
     flex-wrap: wrap;
-    flex-direction: column;
-    justify-content: center;
+    flex-direction: row;
+    justify-content: space-evenly;
+    
+    a{
+      font-size: 0.8em;
+    }
   }
+   
 `
 
 const List = styled.ul`
@@ -60,7 +65,7 @@ const NavBar = () => {
     <Nav id="nav" role="navigation">
    
      
-    {/* <Link id='home' to="/">Cristina Lugo</Link> */}
+    <Link id='home' to="/">Cristina Lugo</Link>
          
           <Link to="/" className="link--work">
             Home
