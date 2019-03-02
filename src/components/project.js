@@ -7,7 +7,7 @@ import Layout from './layout'
 
 const Div = styled.div`
 
-
+margin-top: 2rem;
 width: 70%;
 text-align: center;
 z-index: 1;

@@ -11,8 +11,9 @@ import Layout from '../components/layout'
 
 const Contact=()=>(
 <Layout>
+<div className='contact'>
   <h2 style={{padding: `1rem`}}  id='contact'>Get in touch...</h2>
-    <div>
+    
      {/* <h1>Contact Me </h1> */}
      
      
