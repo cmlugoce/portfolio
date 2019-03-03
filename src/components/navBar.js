@@ -9,8 +9,8 @@ const Nav = styled.nav`
   display: flex;
   flex-wrap: wrap;
   flex-direction: row;
-  justify-content: flex-end;
-  
+  justify-content: space-evenly;
+ 
  
   line-height: 2.2rem;
   
@@ -27,21 +27,34 @@ const Nav = styled.nav`
       text-decoration: none;
       color: hotpink;
     }
+    @media (max-width: 491px){
+      display: none;
     
+     
+    
+     line-height: 2.1rem;
+     }
    
   }
-  @media (max-width: 480px){
-    display: flex;
-    flex-wrap: wrap;
-    flex-direction: row;
-    justify-content: space-evenly;
-    
-    a{
-      font-size: 0.8em;
-    }
-  }
+ 
    
 `
+const Navi = styled.nav`
+display: none;
+   @media (max-width: 491px){
+    display: flex;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+  flex-direction: row;
+   
+  
+   line-height: 2.1rem;
+   }
+
+}
+
+`
+
 
 const List = styled.ul`
   display: flex;
@@ -58,7 +71,11 @@ const List = styled.ul`
   }
 `
 
-const NavBar = () => {
+class NavBar extends React.Component {
+
+
+
+  render(){
   return (
     <>
      
@@ -89,8 +106,18 @@ const NavBar = () => {
         
       
     </Nav>
+
+    <Navi>
+     
+     <Link to='/'>🏠</Link>
+     <Link to='/projects'>💻</Link>
+     <Link to='/contact'>📧</Link>
+     <a href='http://cmlugoce.com/'>✍</a>
+
+    </Navi>
     </>
   )
+}
 }
 
 export default NavBar;

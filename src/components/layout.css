@@ -86,22 +86,22 @@
     flex-direction: row;
     padding: 2rem 0 0 5em;
   }
- main{
+ /* main{
    margin-top: -6.8%;
- }
+ } */
   
 }
 
-@media (max-width: 398px){
-  main{
-    margin-top: -5.8%;
-
-  }
+/* @media (max-width: 398px){
+  
 
   .bg{
     width: 100vw;
+    margin-top: -2%;
   }
 }
+
+
 
 @media (max-width: 450px){
   main{
@@ -127,7 +127,7 @@
 
     
   
-}
+} */
 
 @media (min-width: 600px) {
   .project-preview {
@@ -193,15 +193,46 @@ a{
   font-size: 1.3rem;
   text-align: center;
 }
+
+
 .bg{
   background:  url(../images/universe.jpg) center center no-repeat;
   background-size: cover;
   /* margin-left: -2.3%; */
   width: 98.7vw;
   height: 80vh;
-  margin-top: -2%;
+  margin-top: 0;
   overflow: hidden;
 
+}
+
+@media (max-width: 480px){
+  .contact h1{
+    font-size: 1em;
+  }
+
+  #icon{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+   
+  }
+
+  form{
+    
+    width: 95%;
+    text-align: center;
+    
+  }
+
+  .form-control{
+
+    margin-left: 6%;
+}
+
+footer  svg{
+  display: none;
+}
 }
 
 .me-img{
@@ -251,7 +282,7 @@ section,
 summary {
   display: block;
 } */
-audio,
+/* audio,
 canvas,
 progress,
 video {
@@ -848,4 +879,4 @@ pre tt:after {
   html {
     font-size: 100%;
   }
-}
+} */
