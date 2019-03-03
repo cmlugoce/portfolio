@@ -38,7 +38,7 @@ const IndexPage = () => (
     <h2 id='cap' style={{marginLeft: `10%`}}> I’m Cristina, a web developer, geologist and nature lover</h2>
     
     </div>
-    <ParticlesBG />
+   
     </Wrapper>
     <Me />
    
