@@ -44,14 +44,16 @@ const IndexPage = () => (
     
     
     <Wrapper>
+    <ParticlesBG  />
     <div className='bg'>
     
-    <ParticlesBG style={{zIndex: -1, background: 'transparent'}} />
+    
    
     <h1 id='hello' style ={{  fontWeight: `bold`,  marginLeft: `6%`, zIndex: 1}}>Hola!</h1>
     <h2 id='cap' style={{marginLeft: `10%`}}> I’m Cristina, a web developer, geologist and nature lover</h2>
    
     </div>
+    <ParticlesBG />
     </Wrapper>
     <>
     <Me />
