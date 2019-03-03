@@ -8,7 +8,7 @@ import Layout from './layout'
 const Div = styled.div`
 
 margin-top: 2rem;
-width: 70%;
+
 text-align: center;
 z-index: 1;
 ` 
@@ -27,16 +27,17 @@ const ProjectPreview = ({ title, description, url, imageData, info, code }) => (
       <Div className='project'>
     <Div>
     <Image fluid={imageData} alt={title} style={{borderRadius: `10px`, border: `2px solid purple`}}/>
+    <br />
     <h1>{title}</h1>
     <p>{description}</p>
-    <p>
-      <a href={url}>💻 View this project online &rarr;</a>
-    </p>
-    <p>
-      <a href={code}>📔 View Code &rarr;</a>
-    </p>
+    
+      <a  id='url' href={url}>💻 View this project online</a>   
+    <br />
+      <a id='code' href={code}>📔 View Code</a>
+    <br />
+    <br />
     <h3>Description:</h3>
-    <ul style={{listStyleType: `none`}}>
+    <ul >
       {info.map(info => (
         <li key={`info-${info}`}>{info}</li>
       ))}

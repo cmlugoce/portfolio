@@ -233,6 +233,26 @@ a{
 footer  svg{
   display: none;
 }
+
+.project h1{
+  font-size: 1.8rem;
+}
+.project h3{
+  font-size: 1.2rem;
+  font-weight: bold;
+}
+
+.project ul{
+  
+}
+
+li{
+  
+  text-align: start;
+}
+#contact{
+  font-size: 1.2rem;
+}
 }
 
 .me-img{
