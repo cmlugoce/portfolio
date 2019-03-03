@@ -13,11 +13,23 @@ import styled from 'styled-components';
 const Wrapper = styled.div`
   background: transparent;
   overflow: hidden;
- 
+  margin-top: -1.69%;
   position: relative;
  
-  
- 
+  @media (max-width: 380px){
+    margin-top: -7%;
+  }
+
+  @media (max-width: 450px){
+    margin-top: -5.6%;
+  }
+
+  @media (max-width: 900px){
+    margin-top: -1.5em;
+  }
+ @media(max-width: 1280px){
+   margin-top: -1.5em;
+ }
 
  
   }
