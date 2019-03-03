@@ -35,7 +35,7 @@ const Img = styled.img`
   margin-left:auto;
    margin-right:auto;
    display:block;
-   z-index: 1;
+  
 `;
 
 const Me =()=>
