@@ -31,7 +31,7 @@ const Img = styled.img`
   margin-top: 3%;
   border: 2px solid rgba(0, 0, 0, 0.4);
   width: 250px;
-  height: 300px;
+  
   margin-left:auto;
    margin-right:auto;
    display:block;
