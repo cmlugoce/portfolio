@@ -1,7 +1,7 @@
 import React from 'react';
 import Particles from 'react-particles-js';
 
-import Wrapper from './Wrapper';
+import Wrapper from './wrapper';
 
 function ParticlesBG(props) { 
   return (
