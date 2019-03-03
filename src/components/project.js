@@ -26,7 +26,7 @@ const ProjectPreview = ({ title, description, url, imageData, info, code }) => (
       
       <Div className='project'>
     <Div>
-    <Image fluid={imageData} alt={title} style={{borderRadius: `10px`, border: `2px solid purple`}}/>
+    <Image fluid={imageData} alt={title} />
     <br />
     <h1>{title}</h1>
     <p>{description}</p>
