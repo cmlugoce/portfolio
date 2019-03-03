@@ -12,7 +12,7 @@ margin-top: 2rem;
 text-align: center;
 z-index: 1;
 ` 
-const Wrapper = styled.section`
+const UL = styled.ul`
 background: transparent;
   overflow: hidden;
   z-index: 4;
@@ -37,7 +37,7 @@ const ProjectPreview = ({ title, description, url, imageData, info, code }) => (
     <br />
     <br />
     <h3>Description:</h3>
-    <ul >
+    <ul style={{textAlign: `start`}}>
       {info.map(info => (
         <li key={`info-${info}`}>{info}</li>
       ))}
