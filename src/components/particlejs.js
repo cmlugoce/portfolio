@@ -43,6 +43,7 @@ function ParticlesBG(props) {
 	        }
 	    },
 	    "interactivity": {
+            "detect_on": "canvas",
 	        "events": {
 	            "onclick": {
 	                "enable": true,
