@@ -12,9 +12,7 @@ const Wrapper = styled.div`
   top: 0;
   width: 100%;
 
-  @media  (max-width: 600px) {
-    display: none;
-  }
+ 
   
 `;
 
