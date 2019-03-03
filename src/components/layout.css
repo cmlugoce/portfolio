@@ -250,7 +250,7 @@ header{
   position: fixed;
   width: 100%;
   z-index: 1;
-  bottom: 0;
+  bottom: -4.1%;
   margin-top: 6%;
 }
 
