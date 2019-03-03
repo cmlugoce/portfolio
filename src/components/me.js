@@ -5,7 +5,7 @@ import Skills from '../components/skills'
 const Wrapper = styled.div`
   background: transparent;
   overflow: hidden;
-  width: 95vw;
+  
   height: auto;
   position: relative;
   
@@ -58,7 +58,7 @@ const Me =()=>
 </Column>
 
  
-<h2 id='skills' style={{padding: `1rem 5rem 1rem`, color: `#3498db`}}><u>My skills</u></h2>
+<h2 id='skills' style={{padding: `1rem 7rem 2rem`, color: `#3498db`}}><u>My skills</u></h2>
 <Skills />
 
 </Wrapper>
