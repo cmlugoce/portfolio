@@ -18,7 +18,7 @@ const Column = styled.div`
   margin-left:auto;
   margin-right:auto;
   display:block;
-  padding: 0 5rem;
+  padding: 0 7rem;
   position: relative;
   width: 50%;
   @media only screen and (max-width: 768px) {
@@ -45,7 +45,7 @@ const Me =()=>
 
  <Column>
  <h1 id='name' style={{marginTop: `3%`, fontWeight: `bold`, color: `#003366`, textAlign: `center`}}>Cristina Lugo</h1> 
- {/* <h3 class='desc'>Web Developer</h3> */}
+ 
  <p class='desc'>
 
      I'm a <b>web developer</b> with a background in Geology. 

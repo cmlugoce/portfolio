@@ -3,7 +3,7 @@ import { Link } from "gatsby"
 import "../components/layout.css"
 import Me from '../components/me'
 import Layout from "../components/layout"
-
+import Image from '../components/image'
 import SEO from "../components/seo"
 import universe from '../images/universe.jpg'
 import 'bootstrap/dist/css/bootstrap.min.css';
@@ -16,6 +16,7 @@ const Wrapper = styled.div`
   margin-top: -1.69%;
   position: relative;
   z-index: 1;
+ 
   @media (max-width: 380px){
     margin-top: -7%;
   }
@@ -37,6 +38,22 @@ const Wrapper = styled.div`
   
 `;
 
+const BgImage = styled(Image)`
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  z-index: -1;
+  height: 100vh; // or whatever
+
+  // Adjust image positioning (if image covers area with defined height) and add font-family for polyfill
+  & > img {
+    object-fit: cover !important; // or whatever
+    object-position: 0% 0% !important; // or whatever
+    font-family: 'object-fit: cover !important; object-position: 0% 0% !important;' // needed for IE9+ polyfill
+  }
+`
+
 const IndexPage = () => (
   <Layout>
     <SEO title="Cristina Lugo" keywords={[`gatsby`, `application`, `react`]} 
@@ -45,12 +62,14 @@ const IndexPage = () => (
     
     <Wrapper>
     <ParticlesBG  />
-    <div className='bg'>
-    <img src={universe} alt='header background' style={{zIndex: -100, position: `absolute`}}/>
-
+    <BgImage />
+    <div className='bg'>  
+    
    
     <h1 id='hello' style ={{  fontWeight: `bold`,  marginLeft: `6%`}}>Hola!</h1>
+     
     <h2 id='cap' style={{marginLeft: `10%`}}> I’m Cristina, a web developer, geologist and nature lover</h2>
+    
     </div>
     <ParticlesBG />
     </Wrapper>

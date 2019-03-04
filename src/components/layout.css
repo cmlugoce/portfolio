@@ -201,16 +201,20 @@ a{
 
 .bg{
  
-  width: 98.7vw;
-  height: 80vh;
-  margin-top: 0;
+  /* width: 98.7vw;
+  height: 80vh; */
+  margin-top: -65%;
+  margin-bottom: 50%;
   overflow: hidden; 
   position: relative;
-  z-index: -1;
+  
+  z-index: 2;
  
 }
 
 @media (max-width: 480px){
+
+  
   .contact h1{
     font-size: 1em;
   }

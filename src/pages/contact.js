@@ -46,10 +46,10 @@ const Contact=()=>(
       <div className="col-lg-8" style={{ margin: '0 auto' }}>
         <div className="row">
           <div className="form-group  col-md-6">
-            <label htmlFor="_replyto">Email</label>
+            <label for="Email">Email</label>
             <input
               type="email"
-              name="_replyto"
+              name="Email"
               className="form-control"
               required
             />
