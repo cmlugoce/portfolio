@@ -5,7 +5,7 @@ import Me from '../components/me'
 import Layout from "../components/layout"
 
 import SEO from "../components/seo"
-
+import universe from '../images/universe.jpg'
 import 'bootstrap/dist/css/bootstrap.min.css';
 import ParticlesBG from '../components/particlejs'
 import styled from 'styled-components';
@@ -15,7 +15,7 @@ const Wrapper = styled.div`
   overflow: hidden;
   margin-top: -1.69%;
   position: relative;
- 
+  z-index: 1;
   @media (max-width: 380px){
     margin-top: -7%;
   }
@@ -46,16 +46,16 @@ const IndexPage = () => (
     <Wrapper>
     <ParticlesBG  />
     <div className='bg'>
-    
-    
+    <img src={universe} alt='header background' style={{zIndex: -100, position: `absolute`}}/>
+
    
-    <h1 id='hello' style ={{  fontWeight: `bold`,  marginLeft: `6%`, zIndex: 1}}>Hola!</h1>
+    <h1 id='hello' style ={{  fontWeight: `bold`,  marginLeft: `6%`}}>Hola!</h1>
     <h2 id='cap' style={{marginLeft: `10%`}}> I’m Cristina, a web developer, geologist and nature lover</h2>
-   
     </div>
     <ParticlesBG />
     </Wrapper>
     <>
+    
     <Me />
    
     </>

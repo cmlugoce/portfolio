@@ -200,14 +200,14 @@ a{
 
 
 .bg{
-  background:  url(../images/universe.jpg) center center no-repeat;
-  background-size: cover;
-  /* margin-left: -2.3%; */
+ 
   width: 98.7vw;
   height: 80vh;
   margin-top: 0;
-  overflow: hidden;
-
+  overflow: hidden; 
+  position: relative;
+  z-index: -1;
+ 
 }
 
 @media (max-width: 480px){

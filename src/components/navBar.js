@@ -56,20 +56,7 @@ display: none;
 `
 
 
-const List = styled.ul`
-  display: flex;
-  justify-content: flex-start;
-  
-  width: 100%;
-  
-  
-  li {
-    display: inline-block;
-    
-    align-items: center;
-    
-  }
-`
+
 
 class NavBar extends React.Component {
 

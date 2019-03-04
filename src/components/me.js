@@ -54,7 +54,7 @@ const Me =()=>
  </p>
 </Column>
 <Column>
-  <Img src='https://imgur.com/pZrqHfF.jpg' className='me-img' />
+  <Img src='https://imgur.com/pZrqHfF.jpg' className='me-img' alt='Cristina Lugo'/>
 </Column>
 
  
