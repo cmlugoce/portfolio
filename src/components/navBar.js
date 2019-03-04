@@ -46,9 +46,9 @@ display: none;
   justify-content: space-evenly;
   flex-wrap: wrap;
   flex-direction: row;
-   
+   font-size: 1.8rem;
   
-   line-height: 2.1rem;
+   line-height: 2.2rem;
    }
 
 }

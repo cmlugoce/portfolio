@@ -250,8 +250,13 @@ header{
   position: fixed;
   width: 100%;
   z-index: 1;
-  bottom: -4.1%;
+  bottom: -4.5%;
   margin-top: 6%;
+  height: 50px;
+}
+
+navbar a{
+  font-size: 3rem;
 }
 
 li{
