@@ -60,7 +60,13 @@ const Cap = styled.h1`
   top: 20%;
   left: 20%;
   transform: translate(-50%,-50%);
-
+ @media (max-width: 450px){
+   
+  position: absolute;
+  top: 30%;
+  left: 35%;
+  transform: translate(-50%,-50%);
+ }
 
 `
 
@@ -69,7 +75,20 @@ z-index: 1;
  position: absolute;
   top: 35%;
   left: 10%;
-  
+  @media (max-width: 385px){
+    position: absolute;
+    top: 80%;
+    left: 7%;
+    font-size: 1em;
+   
+   }
+  @media (max-width: 450px){
+    position: absolute;
+    top: 55%;
+    left: 7%;
+    font-size: 1.5em;
+   
+   }
 
 
 `

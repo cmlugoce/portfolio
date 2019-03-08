@@ -19,7 +19,7 @@
   color: white;
   font-weight: bold;
   text-shadow: 3px 3px 0 rgba(0, 0, 0, 0.4);
-  margin-top: -4%;
+  /* margin-top: -4%; */
 }
 
 #home{
@@ -78,9 +78,9 @@
   }
 
   #cap{
-    font-size: 2em;
-    margin-right: 5%;
-    margin-top: -20%;
+    /* font-size: 2em;
+    margin-right: 5%; */
+    margin-top: -5%;
   }
 
   #tech{
