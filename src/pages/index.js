@@ -13,7 +13,7 @@ import styled from 'styled-components';
 const Wrapper = styled.div`
   background: transparent;
   overflow: hidden;
-  margin-top: -1.69%;
+  margin-top: -1.5em;
   position: relative;
   z-index: 1;
  

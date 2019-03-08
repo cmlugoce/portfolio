@@ -69,11 +69,11 @@ class NavBar extends React.Component {
     <Nav id="nav" role="navigation">
    
      
-    <Link id='home' to="/">Cristina Lugo</Link>
+    {/* <Link id='home' to="/">Cristina Lugo</Link> */}
          
-          <Link to="/" className="link--work">
+       <span>   <Link to="/" className="link--work">
             Home
-          </Link>
+          </Link></span>
           
        
           <Link to="/projects" className="link--about">
