@@ -18,7 +18,7 @@ const Column = styled.div`
   margin-left:auto;
   margin-right:auto;
   display:block;
-  padding: 0 7rem;
+ 
   position: relative;
   width: 50%;
   @media only screen and (max-width: 768px) {
@@ -44,7 +44,7 @@ const Me =()=>
       <Wrapper>
 
  <Column>
- <h1 id='name' style={{marginTop: `3%`, fontWeight: `bold`, color: `#003366`, textAlign: `center`}}>Cristina Lugo</h1> 
+ <h1 id='name' style={{marginTop: `3%`, fontWeight: `bold`, color: `#003366`, paddingLeft: `1.5rem`}}>Cristina Lugo</h1> 
  
  <p class='desc'>
 
@@ -53,12 +53,12 @@ const Me =()=>
       and data analysis. I fell in love with web development after learning Ruby.
  </p>
 </Column>
-<Column>
+{/* <Column> */}
   <Img src='https://imgur.com/pZrqHfF.jpg' className='me-img' alt='Cristina Lugo'/>
-</Column>
+{/* </Column> */}
 
  
-<h2 id='skills' style={{padding: `1rem 7rem 2rem`, color: `#3498db`}}><u>My skills</u></h2>
+<h1 id='skills' style={{padding: `1rem 1rem 1.5rem 1.5rem `, color: `#3498db`, fontWeight: `bold`}}><u>My skills</u></h1>
 <Skills />
 
 </Wrapper>
