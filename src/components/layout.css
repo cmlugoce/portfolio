@@ -70,8 +70,27 @@
 
 }
 
+@media (max-width: 768px){
+  #tech > svg {
+    width: 230px;
+    padding-bottom: 1rem; 
+    display: flex;
+    justify-content: center;
+  }
+}
+
+@media (max-width: 468px){
+  #tech > svg {
+    width: 150px;
+    padding-bottom: 1rem; 
+    display: flex;
+    justify-content: center;
+  }
+}
+
 @media (max-width: 385px){
  
+  
 
   #hello {
     font-size: 4em;
@@ -85,7 +104,7 @@
 
   #tech{
     display: flex;
-    justify-content: flex-start;
+    justify-content: center;
     flex-wrap: wrap;
     flex-direction: row;
     /* padding: 2rem 0 0 5em; */
@@ -99,6 +118,20 @@
     padding-bottom: 1rem; 
   }
   
+}
+
+@media(max-width: 320px){
+  #yo{
+  
+  padding-left: -30%
+  }
+}
+
+@media  screen and (max-width: 455px){
+  #yo{
+    margin: 0 3rem;
+    
+  }
 }
 
 

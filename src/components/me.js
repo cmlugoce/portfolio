@@ -2,6 +2,7 @@ import React from 'react';
 import styled from 'styled-components';
 import ParticlesBG from './particlejs'
 import Skills from '../components/skills'
+import CrisImage from '../components/cris-image'
 const Wrapper = styled.div`
   background: transparent;
   overflow: hidden;
@@ -21,9 +22,29 @@ const Column = styled.div`
  
   position: relative;
   width: 50%;
-  @media only screen and (max-width: 768px) {
+  @media only screen and (max-width: 1024px) {
     float: none;
     width: 100%;
+  }
+`;
+
+const IC = styled.div`
+  float: right;
+  margin-left:1.2rem;
+  margin-right:3rem;
+  
+  display:flex;
+  justify-content: center;
+ 
+  position: relative;
+  width: 45%;
+  @media only screen and (max-width: 1024px) {
+    float: none;
+    width: 90%;
+    display:  flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: center;
   }
 `;
 
@@ -53,12 +74,10 @@ const Me =()=>
       and data analysis. I fell in love with web development after learning Ruby.
  </p>
 </Column>
-{/* <Column> */}
-  <Img src='https://imgur.com/pZrqHfF.jpg' className='me-img' alt='Cristina Lugo'/>
-{/* </Column> */}
-
+ <IC>
+<CrisImage/>
+</IC> 
  
-<h1 id='skills' style={{padding: `1rem 1rem 1.5rem 1.5rem `, color: `#3498db`, fontWeight: `bold`}}><u>My skills</u></h1>
 <Skills />
 
 </Wrapper>
