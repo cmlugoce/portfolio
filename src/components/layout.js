@@ -37,7 +37,7 @@ const Layout = ({ children }) => (
         },
       ]}
       link={[
-        { rel: 'icon', type: 'image/png', href: `${icon}` }
+        { rel: 'favicon', type: 'image/png', href: `${icon}` }
     ]}
     />
         
