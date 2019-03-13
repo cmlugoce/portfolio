@@ -4,6 +4,7 @@ import { StaticQuery, graphql } from "gatsby"
 import Footer from './footer'
 import Header from "./header"
 import "./layout.css"
+import {CircleArrow as ScrollUpButton} from "react-scroll-up-button";
 
 const Layout = ({ children }) => (
   <StaticQuery
@@ -26,6 +27,11 @@ const Layout = ({ children }) => (
           <main>
          
           {children}
+          <ScrollUpButton 
+          EasingType="easeInCubic"
+          ShowAtPosition={10}
+          style={{marginBottom: `1.3rem`, marginRight: `-1rem`}}
+        />
         
           </main>
           <Footer />

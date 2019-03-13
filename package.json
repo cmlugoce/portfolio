@@ -28,6 +28,7 @@
     "react-helmet": "^5.2.0",
     "react-images": "^0.5.19",
     "react-particles-js": "^2.4.2",
+    "react-scroll-up-button": "^1.6.4",
     "reactstrap": "^7.1.0",
     "styled-components": "^4.1.3"
   },
