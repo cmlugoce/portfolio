@@ -5,6 +5,8 @@ import Footer from './footer'
 import Header from "./header"
 import "./layout.css"
 import {CircleArrow as ScrollUpButton} from "react-scroll-up-button";
+import Helmet from 'react-helmet'
+import icon from '../images/icon.png';
 
 const Layout = ({ children }) => (
   <StaticQuery
@@ -21,6 +23,23 @@ const Layout = ({ children }) => (
       
         
        <>
+      <Helmet
+      title={data.site.siteMetadata.title}
+      meta={[
+        {
+          name: "description",
+          content: "Cristina Lugo - Web Developer",
+        },
+        {
+          name: "keywords",
+          content:
+            "frontend, developer, react, gatsby, javascript, ruby",
+        },
+      ]}
+      link={[
+        { rel: 'icon', type: 'image/png', href: `${icon}` }
+    ]}
+    />
         
         <Header />
         

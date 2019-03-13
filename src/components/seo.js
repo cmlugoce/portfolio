@@ -1,6 +1,8 @@
 import React from "react"
 import PropTypes from "prop-types"
 import Helmet from "react-helmet"
+import icon from '../images/icon.png';
+
 import { StaticQuery, graphql } from "gatsby"
 
 function SEO({ description, lang, meta, keywords, title }) {
@@ -51,6 +53,7 @@ function SEO({ description, lang, meta, keywords, title }) {
                 content: metaDescription,
               },
             ]
+            
               .concat(
                 keywords.length > 0
                   ? {
@@ -63,6 +66,7 @@ function SEO({ description, lang, meta, keywords, title }) {
           />
         )
       }}
+      
     />
   )
 }
