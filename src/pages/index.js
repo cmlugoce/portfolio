@@ -94,7 +94,7 @@ z-index: 1;
 `
 const IndexPage = () => (
   <Layout>
-    <SEO title="Cristina Lugo" keywords={[`gatsby`, `application`, `react`]} 
+    <SEO  keywords={[`gatsby`, `application`, `react`]} 
     />
     
     
